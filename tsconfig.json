@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "allowJs": true,
+    "esModuleInterop": true,
+    "target": "ES6",
+    "noImplicitAny": true,
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "outDir": "dist",
+    "strict": true,
+    "baseUrl": ".",
+    "paths": {
+      "*": ["node_modules/*"]
+    },
+    "resolveJsonModule": true
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/cli/index.js",
+    "src/server/oauth.js",
+    "src/index.js",
+    "src/cli/transactions.js"
+  ],
+  "exclude": ["node_modules"]
+}
