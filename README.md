@@ -28,11 +28,11 @@ By using this Software, you acknowledge that you have read and understand these 
 2. Set the redirect url to http://localhost:3000.
 
 ## Installation
-
-1. run `cp .template.env .env` in the terminal at the root dir.
-2. Add _CLIENT_SECRET_, and _CLIENT_ID_ to the .env file from https://developer.sparebank1.no/#/.
-3. Add which finInst you are using to the .env file _FINANCIAL_INSTITUTION_. The institution is found on the getting started page visited in Step: Access to the API.
-4. There are also two States that needs to be added to the .env. _AUTHENTICATE_STATE_ and _TOKEN_STATE_. _AUTHENTICATE_STATE_ can be found on step 2 of getting started. _TOKEN_STATE_ is on step 3.
+1. run `npm ci` or `npm i`
+2. run `cp .template.env .env` in the terminal at the root dir.
+3. Add _CLIENT_SECRET_, and _CLIENT_ID_ to the .env file from https://developer.sparebank1.no/#/.
+4. Add which finInst you are using to the .env file _FINANCIAL_INSTITUTION_. The institution is found on the getting started page visited in Step: Access to the API.
+5. There are also two States that needs to be added to the .env. _AUTHENTICATE_STATE_ and _TOKEN_STATE_. _AUTHENTICATE_STATE_ can be found on step 2 of getting started. _TOKEN_STATE_ is on step 3.
 
 ```
 https://api-auth.sparebank1.no/oauth/authorize
