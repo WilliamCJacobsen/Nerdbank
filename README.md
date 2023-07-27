@@ -19,7 +19,7 @@ By using this Software, you acknowledge that you have read and understand these 
 
 - Node.js
 - npm
-- Bank account at Sparebank1 Østlandet
+- Bank account at Sparebank1
 - Some money in said bank
 
 ## Access to the API
